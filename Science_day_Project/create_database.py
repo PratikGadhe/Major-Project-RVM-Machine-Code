@@ -24,7 +24,8 @@ bottle_entries = [
     ("8906156540075", "Royal Club Soda", "Thick", 12.0, 300),                  # 300 ML
     ("8908000682641", "Jagira Spice Soda", "Thick", 50.0, 2000),
     ("8906017290033", "Bisleri Packaged Drinking Water", "Thin", 10.0, 500),
-    ("8902579304041", "Parle Agro Packaged Drinking Water", "Thin", 7.0, 250)         
+    ("8902579304041", "Parle Agro Packaged Drinking Water", "Thin", 7.0, 250),
+    ("8901088157667", "Parachute Jasmine OIL", "Thick", 7.0, 300) 
 ]
 
 c.executemany("INSERT INTO bottle_data VALUES (?, ?, ?, ?, ?)", bottle_entries)
